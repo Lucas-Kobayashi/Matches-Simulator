@@ -1,3 +1,4 @@
+//Activity criada com Java :(
 package com.example.matchessimulator;
 
 import android.os.Bundle;
