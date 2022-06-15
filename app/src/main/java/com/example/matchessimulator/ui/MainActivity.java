@@ -1,5 +1,5 @@
 //Activity criada com Java :(
-package com.example.matchessimulator;
+package com.example.matchessimulator.ui;
 
 import android.os.Bundle;
 
@@ -17,5 +17,22 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        setupMatchesList();
+        setupMatchesRefresh();
+        setupFloatingActionButton();
+    }
+
+
+    private void setupMatchesList() {
+    //TODO Listar partidas consumindo a nossa API
+    }
+
+    private void setupMatchesRefresh() {
+//        TODO Atualizar as partidas na ação do swipe.
+    }
+
+    private void setupFloatingActionButton() {
+//        TODO Criar evento de click e simulação de partidas.
     }
 }
