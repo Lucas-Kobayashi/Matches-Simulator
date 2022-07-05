@@ -33,5 +33,5 @@
         android:contentDescription="@string/cd_simulate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_simulate" />
+        app:srcCompat="@drawable/ic_simulate_soccer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
